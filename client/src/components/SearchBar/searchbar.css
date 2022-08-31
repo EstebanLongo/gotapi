@@ -1,0 +1,14 @@
+.searchbar{
+    display: flex;
+    position: absolute;
+    margin-left: 15rem;
+    background-color: blueviolet;
+}
+
+.input{
+    color: red;
+}
+
+.button{
+    color: rgb(3, 3, 3)
+}

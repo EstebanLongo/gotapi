@@ -1,0 +1,68 @@
+.formcontainer {
+  /* background-color: rgba(250, 229, 202, 0.918); */
+  /* background-image: url("https://s1.1zoom.me/big0/842/307908-Sepik.jpg"); */
+  /* background-image: url("https://images5.alphacoders.com/403/thumb-1920-403408.jpg"); */
+  background-image: url("https://i.pinimg.com/originals/da/53/65/da536518faf5e6b45e23de3ee9ebb09b.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 60px;
+  height: 1000px;
+  padding-bottom: 30px;
+}
+
+p.danger {
+  color: red;
+  font-size: 16px;
+  text-decoration: solid;
+  display: flex;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(39, 158, 158, 0.683);
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border: 2px solid rgb(206, 198, 192);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+      rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+      rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    margin-left: 450px;
+    padding: 10px;
+    justify-content: space-around;
+    width: 600px;
+    height: 720px;
+  }
+
+.inputs {
+  transition: 0.4s;
+  font-size: 1rem;
+  color: gray;
+}
+
+.inputsD {
+  transition: 0.4s;
+  font-size: 1rem;
+  color: gray;
+  width: 190px;
+}
+
+.divlabels {
+  margin-right: 95px;
+}
+
+.label {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    text-decoration: solid;
+  }
+  
+  .labelD {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    width: 200px;
+  }

@@ -1,0 +1,18 @@
+.divcontcards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 5px 5px;
+}
+
+.chcard {
+  color: rgb(43, 121, 215);
+  background-color: rgba(0, 0, 0, 0.463);
+  border: solid black 1px;
+  width: 20rem;
+  height: 25rem;
+}
+
+.chimg {
+  width: 15rem;
+}

@@ -1,0 +1,30 @@
+.landingpage{
+    background-image: url("https://fondosmil.com/fondo/8778.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 25%;
+    height: 46rem;
+}
+
+.divlanding{
+    position: absolute;
+    padding: 10rem;
+    background-color: rgba(0, 0, 0, 0.049);
+    border-radius: 80px;
+}
+
+.imglanding{
+    width: 20rem;
+    height: 11rem;
+    border-radius: 75px;
+    box-shadow: -30px 15px 50px 50px;
+}
+
+.linklanding{
+    /* display: flex; */
+    margin-top: 10rem;
+    /* background-color: antiquewhite; */
+    margin-right: -15rem;
+    text-decoration: none;
+    color: aliceblue;
+}

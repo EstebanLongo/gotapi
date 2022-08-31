@@ -1,0 +1,27 @@
+.paginadoCont {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  margin-top: 10rem;
+}
+
+.liNum {
+  cursor: pointer;
+  border-radius: 3px;
+  height: 40px;
+  width: 30px;
+  animation-duration: 0.5s;
+  background-color: rgba(2, 2, 2, 0.813);
+  color: rgb(6, 6, 6);
+  border: 0;
+  margin: 3px;
+  padding: 7px;
+  background-color: rgba(240, 248, 255, 0.793);
+}
+
+.liNum1:hover {
+  transform: scale(1.2);
+  border-radius: 3px;
+  background-color: black;
+  color: white;
+}

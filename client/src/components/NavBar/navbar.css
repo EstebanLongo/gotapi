@@ -1,0 +1,31 @@
+.navbarhome {
+  display: flex;
+  justify-content: space-evenly;
+  height: 3em;
+  margin: 0 auto;
+  text-decoration: none;
+  list-style: none;
+  /* background-image: url("http://4.bp.blogspot.com/-OSZIQvXcLMI/Tbbi7Bf3KRI/AAAAAAAACsA/JXae1vwBqHw/s1600/juego1.jpg"); */
+  background: rgb(61, 60, 60);
+  background: linear-gradient(
+    90deg,
+    rgba(61, 60, 60, 1) 0%,
+    rgba(0, 0, 0, 1) 50%,
+    rgba(61, 60, 60, 1) 100%
+  );
+  background-repeat: no-repeat;
+  background-position: 13%;
+  background-size: cover;
+  color: aliceblue;
+  font-size: 20px;
+}
+
+.listitemsnavbar{
+    padding-top: 1rem;
+}
+
+.linknav {
+  text-decoration: none;
+  list-style: none;
+  color: rgb(220, 227, 233);
+}

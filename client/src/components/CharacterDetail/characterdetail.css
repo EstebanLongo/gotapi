@@ -1,0 +1,20 @@
+.divcontcarddetail{
+    background-image: url("https://www.science-et-vie.com/wp-content/uploads/scienceetvie/2019/05/game-thrones-est-elle-trompee-dans-ses-predictions-scaled.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 46rem;
+}
+.carddetail{
+    background-color: rgba(23, 22, 22, 0.653);
+    border: 2px solid black;
+    width: 35rem;
+    height: 38rem;
+    margin: 3rem auto;
+    color: antiquewhite;
+}
+
+.imgdetail{
+    width: 18rem;
+    border-radius: 40px;
+    box-shadow: 2px 0px 15px 3px;
+}
