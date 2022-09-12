@@ -26,6 +26,11 @@ export default function FilterByHouse({ setCurrentPage }) {
         <option value="Baratheon">Baratheon</option>
         <option value="Greyjoy">Greyjoy</option>
         <option value="Martell">Martell</option>
+        <option value="Sand">Sand</option>
+        <option value="Tarly">Tarly</option>
+        <option value="Tyrell">Tyrell</option>
+        <option value="Bolton">Bolton</option>
+        <option value="Mormont">Mormont</option>
       </select>
     </div>
   );

@@ -12,7 +12,7 @@ import "./home.css";
 export default function Home() {
   const dispatch = useDispatch();
   const allCharacters = useSelector((state) => state.characters);
-
+  const [, setOrder] = useState("");
   const [currentPage, setCurrentPage] = useState(1);
   const [charactersPerPage] = useState(9);
   const indexOfLastCharacter = currentPage * charactersPerPage; //10
@@ -22,7 +22,7 @@ export default function Home() {
     indexOfFirstCharacter,
     indexOfLastCharacter
   ); //me divide el array de todo y me toma desde el primer indice hasta el ultimo
-  // console.log("ALLCHRCTS: ", currentCharacters);
+  console.log("ALLCHRCTS: ", currentCharacters);
 
   const paginado = (pageNumber) => {
     setCurrentPage(pageNumber);
@@ -39,18 +39,16 @@ export default function Home() {
   return (
     <div>
       <NavBar />
-
-        <SearchBar />
-        <FilterByHouse setCurrentPage={setCurrentPage}/>
+      <FilterByHouse setCurrentPage={setCurrentPage} />
+      <SearchBar />
       <div className="cardcontchar">
-
-
         {currentCharacters.length === 0
           ? "not charcts"
           : currentCharacters.map((ch) => {
               return (
                 <div className="cardshome">
                   <CharacterCard
+                    key={ch.id}
                     firstName={ch.firstName}
                     lastName={ch.lastName}
                     id={ch.id}

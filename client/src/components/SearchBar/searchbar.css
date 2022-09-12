@@ -2,11 +2,11 @@
     display: flex;
     position: absolute;
     margin-left: 15rem;
-    background-color: blueviolet;
 }
 
 .input{
     color: red;
+    width: 30rem;
 }
 
 .button{

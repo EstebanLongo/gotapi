@@ -5,14 +5,17 @@ const { Character } = require("../../db.js");
 
 const getAllCharacters = async (req, res) => {
   let { name } = req.query;
+  console.log("NAME", name);
   if (!name) {
     let allCharacters = await getCharacters();
     res.status(200).send(allCharacters);
   } else {
     try {
       let characters = await getCharacters();
-      let characterName = characters.filter((el) => el.firstName === name);
-      characterName.length
+      let characterName = characters.filter((el) => {
+        return el.dataValues.firstName.includes(name);
+      });
+      characterName
         ? res.status(200).send(characterName)
         : res.status(404).send("Character not found");
     } catch (error) {

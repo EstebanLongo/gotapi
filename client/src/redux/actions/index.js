@@ -58,7 +58,7 @@ export function searchCharacter(name) {
       let detail = await axios.get(
         "http://localhost:3001/characters?name=" + name
       );
-      console.log("DET", detail.data);
+      console.log("DET", detail);
       return dispatch({
         type: "SEARCH_CHARACTER",
         payload: detail.data,

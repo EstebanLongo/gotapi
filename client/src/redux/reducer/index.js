@@ -34,16 +34,14 @@ function rootReducer(state = initialState, action) {
         characters: action.payload,
       };
     case "FILTER_BY_HOUSE_NAME":
-      const allCharacters = state.characters;
+      const allCharacters = state.charactersCopy;
       const housesFiltered =
         action.payload === "All"
           ? allCharacters
-          : allCharacters.filter((el) => el.lastName === action.payload);
-          console.log("AP", action.payload)
-          console.log("redu", housesFiltered)
+          : allCharacters.filter((el) => el.lastName.startsWith(action.payload.slice(0,5)) || el.family.includes(action.payload) || el.lastName === action.payload);
       return {
         ...state,
-        characters: housesFiltered,
+        charactersCopy: housesFiltered,
       };
     default:
       return {

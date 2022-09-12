@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   /* background-image: url("https://www.science-et-vie.com/wp-content/uploads/scienceetvie/2019/05/game-thrones-est-elle-trompee-dans-ses-predictions-scaled.jpg"); */
-  /* background-image: url("https://i.pinimg.com/originals/da/53/65/da536518faf5e6b45e23de3ee9ebb09b.jpg"); */
+  background-image: url("https://i.pinimg.com/originals/da/53/65/da536518faf5e6b45e23de3ee9ebb09b.jpg");
   background-repeat: no-repeat;
   background-size: contain;
   padding-bottom: 10rem;
